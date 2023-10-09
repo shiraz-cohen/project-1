@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width>, initial-scale=1.0">
+    
+    
+    <title>send</title>
+</head>
+<style>
+    h1{
+        font-family: trashim, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        text-align: center;
+        font-size: 70px;
+    }
+    #submit1{
+    height: 50px; 
+    width: 500px;
+    border-color: #503306;
+    box-sizing: border-box;
+    background-color: #000000;
+    color: rgb(207, 202, 202);
+    padding:10px;
+    border-radius: 4px;
+    margin: 10px;
+    cursor: pointer;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align : center ;
+    position:relative;
+    left:500px;
+  }
+  #submit1:hover{
+    background-color: rgb(100, 95, 95);
+  color: blacke;
+  }
+  .Contact1{
+    text-align : center ;
+    box-sizing: border-box;
+    padding: 40px;
+    
+    
+  }
+  .access{
+    align-items: center;
+
+  }
+  
+  .ho{
+    width: 200px;
+    height: 200px;
+    margin-right:auto;
+    float: left;
+    position:relative;
+    bottom:  90px;
+    margin: 30px auto;
+    display:flex;
+    z-index: 20;
+   
+    
+
+    position: relative;
+    animation: mymove 25s infinite;
+    animation-iteration-count: infinite;
+    
+    
+    
+ }
+
+ .horse{animation-timing-function: ease;}
+ @keyframes mymove {
+    from {left: 0px;}
+    to {left: 1400px;}
+  }
+
+
+  @media (max-width:900px){
+    *{
+        max-width: 100%;
+    }
+    #submit1{
+        height: 50px; 
+        width:300px;
+         left: 0px;
+         right: 300px;
+        box-sizing: border-box;
+    }
+    .contact1{
+        text-align : center ;
+        box-sizing: border-box;
+        align-items: center;
+    }
+    .horse{animation-timing-function: ease;}
+ @keyframes mymove {
+    from {left: 0px;}
+    to {left: 300px;}
+  }
+
+  }
+
+
+
+
+
+</style>
+<body>
+    <div class="access">
+        <h1>פנייתך נקלטה במערכת</h1>
+        <form class="contact1" method="post" action="index.html"  >
+            <input  id="submit1" type="submit" value="חזור לדף הבית">
+        </form>
+    </div>
+    
+        
+
+</div>
+<div class="ho">
+  <img class="horse" src="photos./horse.gif" />
+</div>
+
+</body>
+</html>

@@ -1,0 +1,190 @@
+
+p{
+    font-size: 18px;
+}
+#title{
+    font-size: 70px;
+
+}
+#haed{
+    align-items: stretch;
+}
+#link-about,#link-Therapeutic-Riding,
+#link-Dog-care,#link-gallery,
+#link-Costs,#link-Contact-Us{
+    font-size: 35px;
+
+}
+#link2,#link1,#link3{
+    width: 10%;
+    height: 20px;
+    font-size: 15px;
+}
+#video1,#video2{
+    height: 350px;
+    width: 210px;
+}
+ul{
+    margin: 20px auto;
+    padding: 0 10px;
+    text-align: center;
+  }
+  li{
+      color: #FFF;
+      font-size: 15px;
+      font-weight: 250;
+      width: 100px;
+      display:flexbox;
+  }
+
+  li:hover {
+    border-color: #000000;
+    font-style:inherit;
+    font-size: 15.5px;
+    color: #000000;
+    
+    
+  }
+ 
+
+
+.gallery-item .img {
+    width: 150px;
+    height: 150px;
+}
+
+
+ 
+th, td {
+    font-weight: 100px;
+    padding: 10px;
+    text-align: center;
+    width: 33.3333%;
+    font-size:15px;
+    }
+    #location, #num, #mail{
+      font-size:17px;
+      margin-left: 200px;
+    }
+    #namefarm{
+        font-size:15px;
+        margin-left: 200px;
+      }
+      .our-details{
+        flex-basis: 40%;
+        box-sizing: border-box;
+        position:relative; 
+        margin-right: 200px; 
+      }
+      .symbol{
+        margin-right: 40px;
+      }
+
+
+
+
+
+
+    #link-Contact-Us{
+      margin: left 90px;
+      
+  
+  
+    }
+    
+    .Contact-Us
+  {
+      display:contents;
+      justify-content: space-between;
+      margin-left: 300px;
+      margin-right: 0; 
+  }
+  
+    
+     
+  .recommendation-grid{
+      display: grid;
+      grid-template-columns:repeat(4, 1fr);
+      grid-auto-rows: 200px;
+      grid-row-gap: 90px ;
+      margin: 10px;
+    
+    }
+    
+    .told-about-us{
+      grid-column-start: 1;
+      grid-column-end: 3;
+      grid-row-start:1 ;
+      grid-row-end: 2;
+      font-size: 15px;
+      
+    }
+    
+  .banner{
+      height: 1000px;
+      max-width: 95%;
+      margin: 10px;
+      padding: 10px;
+      background-color: #2a2a2a;
+      display: flex;
+      border-radius: 40px;
+    }
+    .item-1{
+      grid-column: span 2;
+    }
+    .item-2{
+      grid-column: span 2;
+    }
+    .item-3{
+      grid-column: span 2;
+    }
+    .item-4{
+      grid-column: span 2;
+    }.item-5{
+      grid-column: span 2;
+      grid-row:span 2;
+    
+    }
+   
+
+  @media (max-width: 550px) {
+    #name,#email,#tel,#message,#submit{
+        width: 250px;
+    }
+    
+    #ending{
+        align-items: center;
+        text-align: center;
+        margin: 10px 1opx;
+     }
+
+
+    
+  }
+  @media (max-width: 720px){
+    .recommendation-grid{
+        font-size: small;
+
+    }
+    .told-about-us{
+        font-size: larger;
+    }
+    
+    @media (max-width: 530px) {
+        nav ul li{
+            display: none;
+
+        }
+        
+    }
+  }
+  
+  @media (max-width:550px){
+    .gallery-item .img {
+        width: 150px;
+        height: 150px;
+    }
+  }
+  
+    
+    
