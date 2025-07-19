@@ -17,7 +17,7 @@ This website was designed and developed as a practice project for learning Full 
 - 🐕 **Therapeutic Dog Training:** Details on dog-assisted therapy
 - 📷 **Gallery:** Photos and videos showcasing life on the farm
 - 🎥 **Videos:** Dedicated section for farm activities and therapy sessions
-- 🌟 **Customer Reviews:** Feedback and testimonials from our (fictional) clients - 📞 **Contact Section:** Includes a fictional contact form and details for demonstration purposes
+- 🌟 **Customer Reviews:** Feedback and testimonials from our (fictional) clients - 📞 **Contact Section:** Includes a fictional contact form and details for demonstration purposes
 - ✨ **Animated Section:** An engaging animation at the bottom of the page for a dynamic user experience
 
 > **Note:** This website is purely educational and not affiliated with a real farm. The contact details and pricing information are fictional.
